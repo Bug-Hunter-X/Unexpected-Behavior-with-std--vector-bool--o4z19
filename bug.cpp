@@ -1,0 +1,1 @@
+std::vector<bool> vec; // ... some operations ... if (vec[i]) { // ... } This code can be problematic because std::vector<bool> is a specialization that doesn't store booleans as individual bits. It might have different memory layout and access methods compared to other vector types, leading to unexpected behavior or performance issues.
